@@ -1,0 +1,1110 @@
+TBalkania
+v7
+r0
+t331512845.202057
+cCheck dependencies
+cProcessInfoPlistFile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Info.plist Balkania-Info.plist
+cCompileXIB /Users/momchil/Documents/Balkania/MainWindow.xib
+cCompileXIB /Users/momchil/Documents/Balkania/SecondView.xib
+cCompileXIB /Users/momchil/Documents/Balkania/FirstView.xib
+cCompileXIB /Users/momchil/Documents/Balkania/NowPlayingView.xib
+cCpResource build/Debug-iphonesimulator/Balkania.app/playbutton.png playbutton.png
+cCpResource build/Debug-iphonesimulator/Balkania.app/stopbutton.png stopbutton.png
+cCpResource build/Debug-iphonesimulator/Balkania.app/loadingbutton.png loadingbutton.png
+cCpResource build/Debug-iphonesimulator/Balkania.app/pausebutton.png pausebutton.png
+cCpResource build/Debug-iphonesimulator/Balkania.app/Balkania.sqlite Balkania.sqlite
+cCpResource build/Debug-iphonesimulator/Balkania.app/forwardbutton.png forwardbutton.png
+cCompileXIB /Users/momchil/Documents/Balkania/DetailView.xib
+cProcessPCH /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch.gch Balkania_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/main.o /Users/momchil/Documents/Balkania/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/BalkaniaAppDelegate.o /Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/FirstViewController.o /Users/momchil/Documents/Balkania/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SecondViewController.o /Users/momchil/Documents/Balkania/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NowPlayingViewController.o /Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Song.o /Users/momchil/Documents/Balkania/Classes/Song.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/AudioStreamer.o /Users/momchil/Documents/Balkania/Classes/AudioStreamer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner.o /Users/momchil/Documents/Balkania/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerialization.o /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializedData.o /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer.o /Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONScanner.o /Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializer.o /Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SharedData.o /Users/momchil/Documents/Balkania/Classes/SharedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/DetailViewController.o /Users/momchil/Documents/Balkania/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania normal i386
+cGenerateDSYMFile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app.dSYM /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania
+cTouch /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D54CF4A0000000000000A23
+t1297403722
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54CF7C00000000001C41F0
+t1297403772
+s1851888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004D54CF5900000000000004CF
+t1297403737
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004D5EBF360000000000000294
+t1298054966
+s660
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004D5EBF5300000000001C31B0
+t1298054995
+s1847728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h
+c000000004D54D2DF0000000000000364
+t1297404639
+s868
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/pthread.h
+c000000004D4F6E9A0000000000003BF6
+t1297051290
+s15350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sqlite3.h
+c000000004D54CB5C0000000000045296
+t1297402716
+s283286
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CB720000000000099500
+t1297402738
+s627968
+
+N/Users/momchil/Documents/Balkania/Balkania.sqlite
+c000000004E08213B0000000000001000
+t1309155643
+s4096
+
+N/Users/momchil/Documents/Balkania/Balkania_Prefix.pch
+c000000004DFEA73600000000000000B9
+t1308534582
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/momchil/Documents/Balkania/Classes/AudioStreamer.h
+c000000004D9BFE500000000000001948
+t1302068816
+s6472
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/momchil/Documents/Balkania/Classes/AudioStreamer.m
+c000000004D9BFE50000000000000C349
+t1302068816
+s49993
+i"AudioStreamer.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.h
+c000000004E06B84500000000000001F4
+t1309063237
+s500
+i<UIKit/UIKit.h>
+i"SharedData.h"
+
+N/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m
+c000000004E06BA670000000000000C83
+t1309063783
+s3203
+i"BalkaniaAppDelegate.h"
+i"Song.h"
+
+N/Users/momchil/Documents/Balkania/Classes/DetailViewController.h
+c000000004E1126210000000000000230
+t1309746721
+s560
+i<UIKit/UIKit.h>
+i"Song.h"
+i"SharedData.h"
+
+N/Users/momchil/Documents/Balkania/Classes/DetailViewController.m
+c000000004E1244620000000000000981
+t1309820002
+s2433
+i"DetailViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/FirstViewController.h
+c000000004E068F5B0000000000000416
+t1309052763
+s1046
+i<UIKit/UIKit.h>
+i"NowPlayingViewController.h"
+i"Song.h"
+i"SharedData.h"
+
+N/Users/momchil/Documents/Balkania/Classes/FirstViewController.m
+c000000004E1107BC000000000000263D
+t1309738940
+s9789
+i"FirstViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/NavigationDelegate.h
+c000000004E01C3E000000000000001D0
+t1308738528
+s464
+i<UIKit/UIKit.h>
+
+N/Users/momchil/Documents/Balkania/Classes/NavigationDelegate.m
+c000000004E01C4170000000000000AC2
+t1308738583
+s2754
+i"NavigationDelegate.h"
+i"FirstViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.h
+c000000004E06D34F000000000000043C
+t1309070159
+s1084
+i<UIKit/UIKit.h>
+i"Song.h"
+i"AudioStreamer.h"
+i<QuartzCore/CoreAnimation.h>
+i<MediaPlayer/MediaPlayer.h>
+i<CFNetwork/CFNetwork.h>
+i"SharedData.h"
+
+N/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m
+c000000004E111E4F000000000000233D
+t1309744719
+s9021
+i"NowPlayingViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/PlaylistTableViewController.h
+c000000004DFEB4620000000000000152
+t1308537954
+s338
+i<UIKit/UIKit.h>
+
+N/Users/momchil/Documents/Balkania/Classes/PlaylistTableViewController.m
+c000000004DFEB41A0000000000000641
+t1308537882
+s1601
+i"PlaylistTableViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/SecondViewController.h
+c000000004E11233A000000000000063C
+t1309745978
+s1596
+i<UIKit/UIKit.h>
+i"CJSONDeserializer.h"
+i"CJSONSerializer.h"
+i"Song.h"
+i"SharedData.h"
+i"DetailViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/SecondViewController.m
+c000000004E1123340000000000004ADA
+t1309745972
+s19162
+i"SecondViewController.h"
+
+N/Users/momchil/Documents/Balkania/Classes/SharedData.h
+c000000004E0689B0000000000000014A
+t1309051312
+s330
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/Classes/SharedData.m
+c000000004E0689A60000000000000206
+t1309051302
+s518
+i"SharedData.h"
+
+N/Users/momchil/Documents/Balkania/Classes/Song.h
+c000000004E11273400000000000003C4
+t1309746996
+s964
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/momchil/Documents/Balkania/Classes/Song.m
+c000000004E124369000000000000146D
+t1309819753
+s5229
+i"Song.h"
+
+N/Users/momchil/Documents/Balkania/DetailView.xib
+c000000004E11266F0000000000007B00
+t1309746799
+s31488
+
+N/Users/momchil/Documents/Balkania/FirstView.xib
+c000000004E0ABA640000000000005D70
+t1309325924
+s23920
+
+N/Users/momchil/Documents/Balkania/IphoneNavigationButton_Forward.png
+c000000004E0ABB7C000000000000035D
+t1309326204
+s861
+
+N/Users/momchil/Documents/Balkania/MainWindow.xib
+c000000004E1109A80000000000008F3D
+t1309739432
+s36669
+
+N/Users/momchil/Documents/Balkania/NowPlayingView.xib
+c000000004E0D41300000000000009F9A
+t1309491504
+s40858
+
+N/Users/momchil/Documents/Balkania/SecondView.xib
+c000000004E0C09FF0000000000005F96
+t1309411839
+s24470
+
+N/Users/momchil/Documents/Balkania/Source/CDataScanner.h
+c000000004DB711B60000000000000A15
+t1303843254
+s2581
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/Source/CDataScanner.m
+c000000004DB711B600000000000020A7
+t1303843254
+s8359
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.h
+c000000004DB711B600000000000002C3
+t1303843254
+s707
+i"CJSONSerializer.h"
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m
+c000000004DB711B600000000000008DA
+t1303843254
+s2266
+i"CFilteringJSONSerializer.h"
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.h
+c000000004DB711B600000000000001E4
+t1303843254
+s484
+i"CJSONDeserializer.h"
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
+c000000004DB711B6000000000000073D
+t1303843254
+s1853
+i"CJSONDeserializer_BlocksExtensions.h"
+i"CJSONScanner.h"
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.h
+c000000004DB711B600000000000003CC
+t1303843254
+s972
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m
+c000000004DB711B6000000000000075A
+t1303843254
+s1882
+i"CJSONSerialization.h"
+i"CJSONDeserializer.h"
+i"CJSONSerializer.h"
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.h
+c000000004DB711B600000000000001FA
+t1303843254
+s506
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m
+c000000004DB711B60000000000000274
+t1303843254
+s628
+i"CJSONSerializedData.h"
+
+N/Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.h
+c000000004DB711B600000000000005FB
+t1303843254
+s1531
+i"CDataScanner.h"
+
+N/Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m
+c000000004DB711B60000000000001305
+t1303843254
+s4869
+i"CDataScanner_Extensions.h"
+
+N/Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.h
+c000000004DB711B600000000000005E6
+t1303843254
+s1510
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m
+c000000004DB711B60000000000000703
+t1303843254
+s1795
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.h
+c000000004DB711B60000000000000A09
+t1303843254
+s2569
+i<Foundation/Foundation.h>
+i"CJSONScanner.h"
+
+N/Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m
+c000000004DB711B60000000000001070
+t1303843254
+s4208
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.h
+c000000004DB711B60000000000000F59
+t1303843254
+s3929
+i"CDataScanner.h"
+
+N/Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m
+c000000004DB711B6000000000000621C
+t1303843254
+s25116
+i"CJSONScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.h
+c000000004DB711B6000000000000087D
+t1303843254
+s2173
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m
+c000000004DB711B600000000000027C0
+t1303843254
+s10176
+i"CJSONSerializer.h"
+i"JSONRepresentation.h"
+
+N/Users/momchil/Documents/Balkania/Source/JSON/JSONRepresentation.h
+c000000004DB711B60000000000000148
+t1303843254
+s328
+i<Foundation/Foundation.h>
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/AudioStreamer.o
+t1308796261
+s131900
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Balkania.LinkFileList
+c000000004E11004D00000000000009D7
+t1309737037
+s2519
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/BalkaniaAppDelegate.o
+t1309747045
+s56380
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner.o
+t1308929700
+s29680
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner_Extensions.o
+t1308929700
+s15468
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CFilteringJSONSerializer.o
+t1308929700
+s14996
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer.o
+t1308929700
+s19220
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
+t1308929700
+s20528
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONScanner.o
+t1308929700
+s43948
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerialization.o
+t1308929700
+s12212
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializedData.o
+t1308929700
+s10552
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializer.o
+t1308929700
+s23340
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/DetailViewController.o
+t1309820045
+s46000
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/FirstViewController.o
+t1309747045
+s83968
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+t1308929700
+s9424
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NavigationDelegate.o
+t1308738720
+s53012
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NowPlayingViewController.o
+t1309747045
+s75204
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/PlaylistTableViewController.o
+t2
+s0
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SecondViewController.o
+t1309747045
+s99576
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SharedData.o
+t1309051319
+s9960
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Song.o
+t1309820045
+s32536
+
+N/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/main.o
+t1308534603
+s6300
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app
+t1309820045
+s544
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app.dSYM
+t1309820045
+s102
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania
+t1309820045
+s210972
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania.sqlite
+t1309323345
+s4096
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/DetailView.nib
+t1309746964
+s4671
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/FirstView.nib
+t1309325939
+s2933
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Info.plist
+t1309400421
+s631
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/IphoneNavigationButton_Forward.png
+t2
+s0
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/MainWindow.nib
+t1309739435
+s4237
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/NowPlayingView.nib
+t1309491673
+s6227
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/PkgInfo
+t1309400421
+s8
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/SecondView.nib
+t1309411850
+s2842
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/forwardbutton.png
+t1309326509
+s861
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/loadingbutton.png
+t1308797756
+s2730
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/pausebutton.png
+t1308797756
+s2653
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/playbutton.png
+t1308797756
+s5958
+
+N/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/stopbutton.png
+t1308797756
+s2666
+
+N/Users/momchil/Documents/Balkania/forwardbutton.png
+c000000004E0ABB7C000000000000035D
+t1309326204
+s861
+
+N/Users/momchil/Documents/Balkania/loadingbutton.png
+c000000004D9BFE500000000000000AAA
+t1302068816
+s2730
+
+N/Users/momchil/Documents/Balkania/main.m
+c000000004DFEA7360000000000000167
+t1308534582
+s359
+i<UIKit/UIKit.h>
+
+N/Users/momchil/Documents/Balkania/pausebutton.png
+c000000004D9BFE500000000000000A5D
+t1302068816
+s2653
+
+N/Users/momchil/Documents/Balkania/playbutton.png
+c000000004D9BFE500000000000001746
+t1302068816
+s5958
+
+N/Users/momchil/Documents/Balkania/stopbutton.png
+c000000004D9BFE500000000000000A6A
+t1302068816
+s2666
+
+N/var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch.gch
+t1308534603
+s15814064
+
+NBalkania-Info.plist
+c000000004E02D5D600000000000003D7
+t1308808662
+s983
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies331512844#331512844#0(0"0(0#1#0"8629508288#0"0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/AudioStreamer.o /Users/momchil/Documents/Balkania/Classes/AudioStreamer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330489060.868921
+e330489061.102058
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/AudioStreamer.o
+x/Users/momchil/Documents/Balkania/Classes/AudioStreamer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/momchil/Documents/Balkania/Classes/AudioStreamer.m330489060#330489061#0(0"0(0#0#57"/Users/momchil/Documents/Balkania/Classes/AudioStreamer.m8644137440#1912"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/AudioStreamer.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/AudioStreamer.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/BalkaniaAppDelegate.o /Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331439844.886153
+e331439845.004083
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/BalkaniaAppDelegate.o
+x/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m: In function '-[BalkaniaAppDelegate applicationDidEnterBackground:]':
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: 'Song' may not respond to '+savePlaylistToDB:'
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: (Messages without a matching method signature
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: will be assumed to return 'id' and accept
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: '...' as arguments.)
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m: In function '-[BalkaniaAppDelegate applicationWillTerminate:]':
+o/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:66: warning: 'Song' may not respond to '+savePlaylistToDB:'
+lSLF07#2@71"Compile /Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m331439844#331439845#0(851"/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m: In function '-[BalkaniaAppDelegate applicationDidEnterBackground:]':/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: 'Song' may not respond to '+savePlaylistToDB:'/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: (Messages without a matching method signature/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: will be assumed to return 'id' and accept/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:46: warning: '...' as arguments.)/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m: In function '-[BalkaniaAppDelegate applicationWillTerminate:]':/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m:66: warning: 'Song' may not respond to '+savePlaylistToDB:'3(22@46"'Song' may not respond to '+savePlaylistToDB:'331439844#134#124#0(6@63"/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m330756583#46#0#46#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331439844#258#123#0(6@63"/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m330756583#46#0#46#0#0"0(22@46"'Song' may not respond to '+savePlaylistToDB:'331439844#727#124#0(6@63"/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m330756583#66#0#66#0#26"'*' may not respond to '*'0(0#0#63"/Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m8618808192#1924"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/BalkaniaAppDelegate.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/BalkaniaAppDelegate.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner.o /Users/momchil/Documents/Balkania/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622498.949237
+e330622500.453060
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner.o
+x/Users/momchil/Documents/Balkania/Source/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/momchil/Documents/Balkania/Source/CDataScanner.m330622498#330622500#0(0"0(0#0#55"/Users/momchil/Documents/Balkania/Source/CDataScanner.m8680980704#1909"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/CDataScanner.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.426881
+e330622500.526942
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner_Extensions.o
+x/Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m330622500#330622500#0(0"0(0#0#77"/Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m8695889824#1942"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/Extensions/CDataScanner_Extensions.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CDataScanner_Extensions.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622498.950515
+e330622500.424965
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CFilteringJSONSerializer.o
+x/Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m330622498#330622500#0(0"0(0#0#80"/Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m8679985280#1946"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/Experimental/CFilteringJSONSerializer.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CFilteringJSONSerializer.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer.o /Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.494988
+e330622500.580049
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer.o
+x/Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m330622500#330622500#0(0"0(0#0#65"/Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m8693348064#1924"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/JSON/CJSONDeserializer.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622498.952581
+e330622500.426753
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
+x/Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m330622498#330622500#0(0"0(0#0#90"/Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m8676586688#1966"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/Experimental/CJSONDeserializer_BlocksExtensions.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONScanner.o /Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.501113
+e330622500.631617
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONScanner.o
+x/Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m330622500#330622500#0(0"0(0#0#60"/Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m8693123264#1914"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/JSON/CJSONScanner.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONScanner.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerialization.o /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.421742
+e330622500.500970
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerialization.o
+x/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m330622500#330622500#0(0"0(0#0#74"/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m8681013824#1934"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerialization.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerialization.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializedData.o /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.425152
+e330622500.494842
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializedData.o
+x/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m330622500#330622500#0(0"0(0#0#75"/Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m8696637920#1936"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/Experimental/CJSONSerializedData.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializedData.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializer.o /Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.525328
+e330622500.616992
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializer.o
+x/Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m330622500#330622500#0(0"0(0#0#63"/Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m8693057728#1920"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/JSON/CJSONSerializer.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/CJSONSerializer.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/DetailViewController.o /Users/momchil/Documents/Balkania/Classes/DetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331512844.977683
+e331512845.110117
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/DetailViewController.o
+x/Users/momchil/Documents/Balkania/Classes/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/momchil/Documents/Balkania/Classes/DetailViewController.m331512844#331512845#0(0"0(0#0#64"/Users/momchil/Documents/Balkania/Classes/DetailViewController.m8627774624#1926"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/DetailViewController.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/DetailViewController.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/FirstViewController.o /Users/momchil/Documents/Balkania/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331439844.887435
+e331439845.174417
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/FirstViewController.o
+x/Users/momchil/Documents/Balkania/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/momchil/Documents/Balkania/Classes/FirstViewController.m: In function '-[FirstViewController viewDidLoad]':
+o/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: 'Song' may not respond to '+getPlaylistFromDB'
+o/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: (Messages without a matching method signature
+o/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: will be assumed to return 'id' and accept
+o/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: '...' as arguments.)
+lSLF07#2@71"Compile /Users/momchil/Documents/Balkania/Classes/FirstViewController.m331439844#331439845#0(579"/Users/momchil/Documents/Balkania/Classes/FirstViewController.m: In function '-[FirstViewController viewDidLoad]':/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: 'Song' may not respond to '+getPlaylistFromDB'/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: (Messages without a matching method signature/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: will be assumed to return 'id' and accept/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: '...' as arguments.)2(22@46"'Song' may not respond to '+getPlaylistFromDB'331439845#115#124#0(6@63"/Users/momchil/Documents/Balkania/Classes/FirstViewController.m331431740#53#0#53#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331439845#239#123#0(6@63"/Users/momchil/Documents/Balkania/Classes/FirstViewController.m331431740#53#0#53#0#0"0(0#0#63"/Users/momchil/Documents/Balkania/Classes/FirstViewController.m8617188096#1924"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/FirstViewController.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330622500.453352
+e330622500.525180
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+x/Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m330622500#330622500#0(0"0(0#0#81"/Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m8693564960#1950"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NavigationDelegate.o /Users/momchil/Documents/Balkania/Classes/NavigationDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330431520.207577
+e330431520.341145
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NavigationDelegate.o
+x/Users/momchil/Documents/Balkania/Classes/NavigationDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/momchil/Documents/Balkania/Classes/NavigationDelegate.m330431520#330431520#0(0"0(0#0#62"/Users/momchil/Documents/Balkania/Classes/NavigationDelegate.m8675905568#1922"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/NavigationDelegate.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NavigationDelegate.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NowPlayingViewController.o /Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331439844.892251
+e331439845.184023
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NowPlayingViewController.o
+x/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController changeSong]':
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: 'NowPlayingViewController' may not respond to '-startPlaying'
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: (Messages without a matching method signature
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: will be assumed to return 'id' and accept
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: '...' as arguments.)
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController dealloc]':
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:82: warning: 'NowPlayingViewController' may not respond to '-destroyStreamer'
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController startPlaying]':
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:176: warning: 'NowPlayingViewController' may not respond to '-destroyStreamer'
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:177: warning: 'NowPlayingViewController' may not respond to '-createStreamer'
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController buttonPressed:]':
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:221: warning: 'NowPlayingViewController' may not respond to '-setButtonImageAccordingToStreamer'
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController textFieldShouldReturn:]':
+o/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:329: warning: 'NowPlayingViewController' may not respond to '-createStreamer'
+lSLF07#2@76"Compile /Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331439844#331439845#0(1889"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController changeSong]':/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: 'NowPlayingViewController' may not respond to '-startPlaying'/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: (Messages without a matching method signature/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: will be assumed to return 'id' and accept/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:42: warning: '...' as arguments.)/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController dealloc]':/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:82: warning: 'NowPlayingViewController' may not respond to '-destroyStreamer'/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController startPlaying]':/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:176: warning: 'NowPlayingViewController' may not respond to '-destroyStreamer'/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:177: warning: 'NowPlayingViewController' may not respond to '-createStreamer'/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController buttonPressed:]':/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:221: warning: 'NowPlayingViewController' may not respond to '-setButtonImageAccordingToStreamer'/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m: In function '-[NowPlayingViewController textFieldShouldReturn:]':/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m:329: warning: 'NowPlayingViewController' may not respond to '-createStreamer'7(22@61"'NowPlayingViewController' may not respond to '-startPlaying'331439845#124#144#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#42#0#42#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331439845#268#128#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#42#0#42#0#0"0(22@64"'NowPlayingViewController' may not respond to '-destroyStreamer'331439845#744#147#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#82#0#82#0#26"'*' may not respond to '*'0(22@64"'NowPlayingViewController' may not respond to '-destroyStreamer'331439845#1017#148#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#176#0#176#0#26"'*' may not respond to '*'0(22@63"'NowPlayingViewController' may not respond to '-createStreamer'331439845#1165#147#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#177#0#177#0#26"'*' may not respond to '*'0(22@82"'NowPlayingViewController' may not respond to '-setButtonImageAccordingToStreamer'331439845#1440#166#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#221#0#221#0#26"'*' may not respond to '*'0(22@63"'NowPlayingViewController' may not respond to '-createStreamer'331439845#1742#147#0(6@68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m331437519#329#0#329#0#26"'*' may not respond to '*'0(0#0#68"/Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m8614329152#1934"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/NowPlayingViewController.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/NowPlayingViewController.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/PlaylistTableViewController.o /Users/momchil/Documents/Balkania/Classes/PlaylistTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SecondViewController.o /Users/momchil/Documents/Balkania/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331439844.888695
+e331439845.160176
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SecondViewController.o
+x/Users/momchil/Documents/Balkania/Classes/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController searchBarSearchButtonClicked:]':
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: 'SecondViewController' may not respond to '-executeAsynchronousSearchQuery:'
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: (Messages without a matching method signature
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: will be assumed to return 'id' and accept
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: '...' as arguments.)
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController connection:didFailWithError:]':
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:354: warning: 'SecondViewController' may not respond to '-stopSearchingEffects'
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController connectionDidFinishLoading:]':
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:403: warning: 'SecondViewController' may not respond to '-stopSearchingEffects'
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController executeAsynchronousSearchQuery:]':
+o/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:431: warning: 'SecondViewController' may not respond to '-startSearchingEffects'
+lSLF07#2@72"Compile /Users/momchil/Documents/Balkania/Classes/SecondViewController.m331439844#331439845#0(1477"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController searchBarSearchButtonClicked:]':/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: 'SecondViewController' may not respond to '-executeAsynchronousSearchQuery:'/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: (Messages without a matching method signature/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: will be assumed to return 'id' and accept/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: '...' as arguments.)/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController connection:didFailWithError:]':/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:354: warning: 'SecondViewController' may not respond to '-stopSearchingEffects'/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController connectionDidFinishLoading:]':/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:403: warning: 'SecondViewController' may not respond to '-stopSearchingEffects'/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController executeAsynchronousSearchQuery:]':/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:431: warning: 'SecondViewController' may not respond to '-startSearchingEffects'5(22@76"'SecondViewController' may not respond to '-executeAsynchronousSearchQuery:'331439845#135#156#0(6@64"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m331438772#314#0#314#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)331439845#291#125#0(6@64"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m331438772#314#0#314#0#0"0(22@65"'SecondViewController' may not respond to '-stopSearchingEffects'331439845#771#145#0(6@64"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m331438772#354#0#354#0#26"'*' may not respond to '*'0(22@65"'SecondViewController' may not respond to '-stopSearchingEffects'331439845#1049#145#0(6@64"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m331438772#403#0#403#0#26"'*' may not respond to '*'0(22@66"'SecondViewController' may not respond to '-startSearchingEffects'331439845#1331#146#0(6@64"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m331438772#431#0#431#0#26"'*' may not respond to '*'0(0#0#64"/Users/momchil/Documents/Balkania/Classes/SecondViewController.m8616303616#1926"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/SecondViewController.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SharedData.o /Users/momchil/Documents/Balkania/Classes/SharedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330744119.189607
+e330744119.262128
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SharedData.o
+x/Users/momchil/Documents/Balkania/Classes/SharedData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/momchil/Documents/Balkania/Classes/SharedData.m330744119#330744119#0(0"0(0#0#54"/Users/momchil/Documents/Balkania/Classes/SharedData.m8693495616#1906"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/SharedData.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/SharedData.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Song.o /Users/momchil/Documents/Balkania/Classes/Song.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s331512844.974913
+e331512845.076345
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Song.o
+x/Users/momchil/Documents/Balkania/Classes/Song.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/momchil/Documents/Balkania/Classes/Song.m: In function '+[Song savePlaylistToDB:]':
+o/Users/momchil/Documents/Balkania/Classes/Song.m:49: warning: passing argument 5 of 'sqlite3_exec' from incompatible pointer type
+o/Users/momchil/Documents/Balkania/Classes/Song.m:51: warning: format not a string literal and no format arguments
+o/Users/momchil/Documents/Balkania/Classes/Song.m: In function '+[Song songWithArtist:title:url:]':
+o/Users/momchil/Documents/Balkania/Classes/Song.m:114: warning: passing argument 1 of 'setIndex:' makes integer from pointer without a cast
+o/Users/momchil/Documents/Balkania/Classes/Song.m: In function '-[Song initWithArtist:title:url:]':
+o/Users/momchil/Documents/Balkania/Classes/Song.m:121: warning: local declaration of 'artist' hides instance variable
+o/Users/momchil/Documents/Balkania/Classes/Song.m:122: warning: local declaration of 'title' hides instance variable
+o/Users/momchil/Documents/Balkania/Classes/Song.m:123: warning: local declaration of 'url' hides instance variable
+o/Users/momchil/Documents/Balkania/Classes/Song.m: In function '-[Song initFromDictionary:]':
+o/Users/momchil/Documents/Balkania/Classes/Song.m:133: warning: passing argument 1 of 'setIndexInBigDatabase:' makes integer from pointer without a cast
+o/Users/momchil/Documents/Balkania/Classes/Song.m: At top level:
+o/Users/momchil/Documents/Balkania/Classes/Song.m:167: warning: incomplete implementation of class 'Song'
+o/Users/momchil/Documents/Balkania/Classes/Song.m:167: warning: method definition for '+finalizeStatements' not found
+o/Users/momchil/Documents/Balkania/Classes/Song.m:167: warning: method definition for '+getPlaylistFromDB:' not found
+lSLF07#2@56"Compile /Users/momchil/Documents/Balkania/Classes/Song.m331512844#331512845#0(1667"/Users/momchil/Documents/Balkania/Classes/Song.m: In function '+[Song savePlaylistToDB:]':/Users/momchil/Documents/Balkania/Classes/Song.m:49: warning: passing argument 5 of 'sqlite3_exec' from incompatible pointer type/Users/momchil/Documents/Balkania/Classes/Song.m:51: warning: format not a string literal and no format arguments/Users/momchil/Documents/Balkania/Classes/Song.m: In function '+[Song songWithArtist:title:url:]':/Users/momchil/Documents/Balkania/Classes/Song.m:114: warning: passing argument 1 of 'setIndex:' makes integer from pointer without a cast/Users/momchil/Documents/Balkania/Classes/Song.m: In function '-[Song initWithArtist:title:url:]':/Users/momchil/Documents/Balkania/Classes/Song.m:121: warning: local declaration of 'artist' hides instance variable/Users/momchil/Documents/Balkania/Classes/Song.m:122: warning: local declaration of 'title' hides instance variable/Users/momchil/Documents/Balkania/Classes/Song.m:123: warning: local declaration of 'url' hides instance variable/Users/momchil/Documents/Balkania/Classes/Song.m: In function '-[Song initFromDictionary:]':/Users/momchil/Documents/Balkania/Classes/Song.m:133: warning: passing argument 1 of 'setIndexInBigDatabase:' makes integer from pointer without a cast/Users/momchil/Documents/Balkania/Classes/Song.m: At top level:/Users/momchil/Documents/Balkania/Classes/Song.m:167: warning: incomplete implementation of class 'Song'/Users/momchil/Documents/Balkania/Classes/Song.m:167: warning: method definition for '+finalizeStatements' not found/Users/momchil/Documents/Balkania/Classes/Song.m:167: warning: method definition for '+getPlaylistFromDB:' not found11(22@67"Passing argument 5 of 'sqlite3_exec' from incompatible pointer type331512845#91#130#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#49#0#49#0#56"passing argument * of '*' from incompatible pointer type0(22@51"Format not a string literal and no format arguments331512845#221#114#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#51#0#51#0#51"format not a string literal and no format arguments0(22@75"Passing argument 1 of 'setIndex:' makes integer from pointer without a cast331512845#434#139#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#114#0#114#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@53"Local declaration of 'artist' hides instance variable331512845#672#117#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#121#0#121#0#0"0(22@52"Local declaration of 'title' hides instance variable331512845#789#116#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#122#0#122#0#0"0(22@50"Local declaration of 'url' hides instance variable331512845#905#114#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#123#0#123#0#0"0(22@88"Passing argument 1 of 'setIndexInBigDatabase:' makes integer from pointer without a cast331512845#1112#152#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#133#0#133#0#67"passing argument * of '*' makes integer from pointer without a cast0(23@13"At top level:331512845#1264#64#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#0#0#0#0#0"0(22@41"Incomplete implementation of class 'Song'331512845#1328#105#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#167#0#167#0#38"incomplete implementation of class '*'0(22@53"Method definition for '+finalizeStatements' not found331512845#1433#117#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#167#0#167#0#35"method definition for '*' not found0(22@53"Method definition for '+getPlaylistFromDB:' not found331512845#1550#117#0(6@48"/Users/momchil/Documents/Balkania/Classes/Song.m331512553#167#0#167#0#35"method definition for '*' not found0(0#0#48"/Users/momchil/Documents/Balkania/Classes/Song.m8628282784#1894"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/Classes/Song.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Song.o0#
+
+CCompileC build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/main.o /Users/momchil/Documents/Balkania/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s330227403.464514
+e330227403.529644
+r1
+xCompileC
+xbuild/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/main.o
+x/Users/momchil/Documents/Balkania/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/momchil/Documents/Balkania/main.m330227403#330227403#0(0"0(0#0#40"/Users/momchil/Documents/Balkania/main.m8654793920#1886"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -include /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch -c /Users/momchil/Documents/Balkania/main.m -o /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/momchil/Documents/Balkania/DetailView.xib
+s331439764.243871
+e331439764.671224
+r1
+xCompileXIB
+x/Users/momchil/Documents/Balkania/DetailView.xib
+lSLF07#2@25"CompileXIB DetailView.xib331439764#331439764#0(0"0(0#0#48"/Users/momchil/Documents/Balkania/DetailView.xib8594984096#556"    cd /Users/momchil/Documents/Balkania    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/DetailView.nib /Users/momchil/Documents/Balkania/DetailView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/momchil/Documents/Balkania/FirstView.xib
+s331018738.452370
+e331018739.087554
+r1
+xCompileXIB
+x/Users/momchil/Documents/Balkania/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib331018738#331018739#0(0"0(0#0#47"/Users/momchil/Documents/Balkania/FirstView.xib8698068160#554"    cd /Users/momchil/Documents/Balkania    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/FirstView.nib /Users/momchil/Documents/Balkania/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/momchil/Documents/Balkania/MainWindow.xib
+s331432235.193379
+e331432235.641293
+r1
+xCompileXIB
+x/Users/momchil/Documents/Balkania/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib331432235#331432235#0(0"0(0#0#48"/Users/momchil/Documents/Balkania/MainWindow.xib8618435136#556"    cd /Users/momchil/Documents/Balkania    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/MainWindow.nib /Users/momchil/Documents/Balkania/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/momchil/Documents/Balkania/NowPlayingView.xib
+s331184473.387802
+e331184473.888915
+r1
+xCompileXIB
+x/Users/momchil/Documents/Balkania/NowPlayingView.xib
+lSLF07#2@29"CompileXIB NowPlayingView.xib331184473#331184473#0(0"0(0#0#52"/Users/momchil/Documents/Balkania/NowPlayingView.xib8616225312#564"    cd /Users/momchil/Documents/Balkania    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/NowPlayingView.nib /Users/momchil/Documents/Balkania/NowPlayingView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/momchil/Documents/Balkania/SecondView.xib
+s331104649.759579
+e331104650.142028
+r1
+xCompileXIB
+x/Users/momchil/Documents/Balkania/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib331104649#331104650#0(0"0(0#0#48"/Users/momchil/Documents/Balkania/SecondView.xib8615427872#556"    cd /Users/momchil/Documents/Balkania    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/SecondView.nib /Users/momchil/Documents/Balkania/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/Balkania.sqlite Balkania.sqlite
+s331016145.258612
+e331016145.285909
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Balkania.app/Balkania.sqlite
+xBalkania.sqlite
+lSLF07#2@20"Copy Balkania.sqlite331016145#331016145#0(0"0(0#0#49"/Users/momchil/Documents/Balkania/Balkania.sqlite8685825824#459"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/momchil/Documents/Balkania/Balkania.sqlite /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/IphoneNavigationButton_Forward.png IphoneNavigationButton_Forward.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/forwardbutton.png forwardbutton.png
+s331019309.656231
+e331019309.678327
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Balkania.app/forwardbutton.png
+xforwardbutton.png
+lSLF07#2@22"Copy forwardbutton.png331019309#331019309#0(0"0(0#0#51"/Users/momchil/Documents/Balkania/forwardbutton.png8658305856#461"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/momchil/Documents/Balkania/forwardbutton.png /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/loadingbutton.png loadingbutton.png
+s330490556.116593
+e330490556.138918
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Balkania.app/loadingbutton.png
+xloadingbutton.png
+lSLF07#2@22"Copy loadingbutton.png330490556#330490556#0(0"0(0#0#51"/Users/momchil/Documents/Balkania/loadingbutton.png8685082272#461"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/momchil/Documents/Balkania/loadingbutton.png /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/pausebutton.png pausebutton.png
+s330490556.117907
+e330490556.140151
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Balkania.app/pausebutton.png
+xpausebutton.png
+lSLF07#2@20"Copy pausebutton.png330490556#330490556#0(0"0(0#0#49"/Users/momchil/Documents/Balkania/pausebutton.png8680025632#459"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/momchil/Documents/Balkania/pausebutton.png /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/playbutton.png playbutton.png
+s330490556.114841
+e330490556.140336
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Balkania.app/playbutton.png
+xplaybutton.png
+lSLF07#2@19"Copy playbutton.png330490556#330490556#0(0"0(0#0#48"/Users/momchil/Documents/Balkania/playbutton.png8696550720#458"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/momchil/Documents/Balkania/playbutton.png /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+
+CCpResource build/Debug-iphonesimulator/Balkania.app/stopbutton.png stopbutton.png
+s330490556.115648
+e330490556.140023
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Balkania.app/stopbutton.png
+xstopbutton.png
+lSLF07#2@19"Copy stopbutton.png330490556#330490556#0(0"0(0#0#48"/Users/momchil/Documents/Balkania/stopbutton.png8689454912#458"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/momchil/Documents/Balkania/stopbutton.png /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+
+CGenerateDSYMFile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app.dSYM /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania
+s331512845.160300
+e331512845.199658
+r1
+xGenerateDSYMFile
+x/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app.dSYM
+x/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Balkania.app.dSYM build/Debug-iphonesimulator/Balkania.app/Balkania331512845#331512845#0(0"0(0#0#83"/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania8628405824#371"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania -o /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app.dSYM0#
+
+CLd /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania normal i386
+s331512845.110232
+e331512845.160206
+r1
+xLd
+x/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania
+xnormal
+xi386
+lSLF07#2@88"Link /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania331512845#331512845#0(0"0(0#0#0"8629399584#982"    cd /Users/momchil/Documents/Balkania    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -filelist /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Objects-normal/i386/Balkania.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MediaPlayer -framework AudioToolbox -framework CFNetwork -framework QuartzCore -lsqlite3.0 -o /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Balkania0#
+
+CProcessInfoPlistFile /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Info.plist Balkania-Info.plist
+s331093221.428436
+e331093221.438035
+r1
+xProcessInfoPlistFile
+x/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Info.plist
+xBalkania-Info.plist
+lSLF07#2@27"Process Balkania-Info.plist331093221#331093221#0(0"0(0#0#53"/Users/momchil/Documents/Balkania/Balkania-Info.plist18577550333837424#467"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Balkania-Info.plist -genpkginfo /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app/Info.plist0#
+
+CProcessPCH /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch.gch Balkania_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s330227402.751713
+e330227403.464385
+r1
+xProcessPCH
+x/var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch.gch
+xBalkania_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Balkania_Prefix.pch330227402#330227403#0(0"0(0#0#53"/Users/momchil/Documents/Balkania/Balkania_Prefix.pch8677655584#1782"    cd /Users/momchil/Documents/Balkania    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-generated-files.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-own-target-headers.hmap -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-all-target-headers.hmap -iquote /Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/Balkania-project-headers.hmap -F/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator -I/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/include -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources/i386 -I/Users/momchil/Documents/Balkania/build/Balkania.build/Debug-iphonesimulator/Balkania.build/DerivedSources -c /Users/momchil/Documents/Balkania/Balkania_Prefix.pch -o /var/folders/k6/k62Lgtf9H14KVxOTdUdv3I0-3vA/-Caches-/com.apple.Xcode.1082202035/SharedPrecompiledHeaders/Balkania_Prefix-azokvxlpliqkjlgvobqkubnfuqin/Balkania_Prefix.pch.gch0#
+
+CTouch /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app
+s331512845.199737
+e331512845.202015
+r1
+xTouch
+x/Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app
+lSLF07#2@80"Touch /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app331512845#331512845#0(0"0(0#0#0"8628171648#269"    cd /Users/momchil/Documents/Balkania    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/momchil/Documents/Balkania/build/Debug-iphonesimulator/Balkania.app0#
+

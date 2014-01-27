@@ -1,0 +1,5 @@
+/Users/momchil/Documents/Balkania/Classes/FirstViewController.m: In function '-[FirstViewController viewDidLoad]':
+/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: 'Song' may not respond to '+getPlaylistFromDB'
+/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: (Messages without a matching method signature
+/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: will be assumed to return 'id' and accept
+/Users/momchil/Documents/Balkania/Classes/FirstViewController.m:53: warning: '...' as arguments.)

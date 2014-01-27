@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BalkaniaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BalkaniaAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		5E50F47013C1340D00A0930F /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E50F46F13C1340D00A0930F /* DetailView.xib */; };
+		5E50F48113C1345000A0930F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E50F48013C1345000A0930F /* DetailViewController.m */; };
+		5EF0A1C113AF06A8008EAE13 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A1C013AF06A8008EAE13 /* SecondViewController.m */; };
+		5EF0A5BF13B15788008EAE13 /* NowPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A5BE13B15788008EAE13 /* NowPlayingViewController.m */; };
+		5EF0A5C813B15942008EAE13 /* NowPlayingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0A5C713B15942008EAE13 /* NowPlayingView.xib */; };
+		5EF0A70813B2D359008EAE13 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A70713B2D359008EAE13 /* Song.m */; };
+		5EF0A74F13B2DCCA008EAE13 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A74D13B2DCCA008EAE13 /* AudioStreamer.m */; };
+		5EF0A77913B2DDA2008EAE13 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0A77813B2DDA2008EAE13 /* MediaPlayer.framework */; };
+		5EF0A77B13B2DDAE008EAE13 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0A77A13B2DDAE008EAE13 /* AudioToolbox.framework */; };
+		5EF0A77D13B2DDD2008EAE13 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0A77C13B2DDD2008EAE13 /* CFNetwork.framework */; };
+		5EF0A77F13B2DDD2008EAE13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0A77E13B2DDD2008EAE13 /* QuartzCore.framework */; };
+		5EF0A7D813B2E134008EAE13 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0A7D413B2E134008EAE13 /* playbutton.png */; };
+		5EF0A7D913B2E134008EAE13 /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0A7D513B2E134008EAE13 /* stopbutton.png */; };
+		5EF0A7DA13B2E134008EAE13 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0A7D613B2E134008EAE13 /* loadingbutton.png */; };
+		5EF0A7DB13B2E134008EAE13 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0A7D713B2E134008EAE13 /* pausebutton.png */; };
+		5EF0A9F413B4E5FF008EAE13 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9DD13B4E5FF008EAE13 /* CDataScanner.m */; };
+		5EF0A9F513B4E5FF008EAE13 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9E013B4E5FF008EAE13 /* CFilteringJSONSerializer.m */; };
+		5EF0A9F613B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9E213B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.m */; };
+		5EF0A9F713B4E5FF008EAE13 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9E413B4E5FF008EAE13 /* CJSONSerialization.m */; };
+		5EF0A9F813B4E5FF008EAE13 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9E613B4E5FF008EAE13 /* CJSONSerializedData.m */; };
+		5EF0A9F913B4E5FF008EAE13 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9E913B4E5FF008EAE13 /* CDataScanner_Extensions.m */; };
+		5EF0A9FA13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9EB13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.m */; };
+		5EF0A9FB13B4E5FF008EAE13 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9EE13B4E5FF008EAE13 /* CJSONDeserializer.m */; };
+		5EF0A9FC13B4E5FF008EAE13 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9F013B4E5FF008EAE13 /* CJSONScanner.m */; };
+		5EF0A9FD13B4E5FF008EAE13 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0A9F213B4E5FF008EAE13 /* CJSONSerializer.m */; };
+		5EF0AD5B13B54B7F008EAE13 /* SharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF0AD5A13B54B7F008EAE13 /* SharedData.m */; };
+		5EF0ADEC13B64923008EAE13 /* Balkania.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0ADEB13B64923008EAE13 /* Balkania.sqlite */; };
+		5EF0ADEE13B649BC008EAE13 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF0ADED13B649BC008EAE13 /* libsqlite3.0.dylib */; };
+		5EF0B51D13BAF342008EAE13 /* forwardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF0B51C13BAF342008EAE13 /* forwardbutton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BalkaniaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalkaniaAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BalkaniaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalkaniaAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Balkania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balkania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		2840D7CD1179279E00D7F93C /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Balkania_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balkania_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E50F46F13C1340D00A0930F /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		5E50F47F13C1345000A0930F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5E50F48013C1345000A0930F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5EF0A1BF13AF06A8008EAE13 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5EF0A1C013AF06A8008EAE13 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5EF0A5BD13B15788008EAE13 /* NowPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NowPlayingViewController.h; sourceTree = "<group>"; };
+		5EF0A5BE13B15788008EAE13 /* NowPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NowPlayingViewController.m; sourceTree = "<group>"; };
+		5EF0A5C713B15942008EAE13 /* NowPlayingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowPlayingView.xib; sourceTree = "<group>"; };
+		5EF0A70613B2D359008EAE13 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		5EF0A70713B2D359008EAE13 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		5EF0A74D13B2DCCA008EAE13 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		5EF0A74E13B2DCCA008EAE13 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		5EF0A77813B2DDA2008EAE13 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5EF0A77A13B2DDAE008EAE13 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5EF0A77C13B2DDD2008EAE13 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5EF0A77E13B2DDD2008EAE13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5EF0A7D413B2E134008EAE13 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		5EF0A7D513B2E134008EAE13 /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		5EF0A7D613B2E134008EAE13 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
+		5EF0A7D713B2E134008EAE13 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		5EF0A9DC13B4E5FF008EAE13 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		5EF0A9DD13B4E5FF008EAE13 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		5EF0A9DF13B4E5FF008EAE13 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		5EF0A9E013B4E5FF008EAE13 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		5EF0A9E113B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		5EF0A9E213B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		5EF0A9E313B4E5FF008EAE13 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		5EF0A9E413B4E5FF008EAE13 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		5EF0A9E513B4E5FF008EAE13 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		5EF0A9E613B4E5FF008EAE13 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		5EF0A9E813B4E5FF008EAE13 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		5EF0A9E913B4E5FF008EAE13 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		5EF0A9EA13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		5EF0A9EB13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		5EF0A9ED13B4E5FF008EAE13 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		5EF0A9EE13B4E5FF008EAE13 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		5EF0A9EF13B4E5FF008EAE13 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		5EF0A9F013B4E5FF008EAE13 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		5EF0A9F113B4E5FF008EAE13 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		5EF0A9F213B4E5FF008EAE13 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		5EF0A9F313B4E5FF008EAE13 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		5EF0AD5913B54B7F008EAE13 /* SharedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedData.h; sourceTree = "<group>"; };
+		5EF0AD5A13B54B7F008EAE13 /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedData.m; sourceTree = "<group>"; };
+		5EF0ADEB13B64923008EAE13 /* Balkania.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balkania.sqlite; sourceTree = "<group>"; };
+		5EF0ADED13B649BC008EAE13 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5EF0B51C13BAF342008EAE13 /* forwardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardbutton.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Balkania-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Balkania-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				5EF0A77913B2DDA2008EAE13 /* MediaPlayer.framework in Frameworks */,
+				5EF0A77B13B2DDAE008EAE13 /* AudioToolbox.framework in Frameworks */,
+				5EF0A77D13B2DDD2008EAE13 /* CFNetwork.framework in Frameworks */,
+				5EF0A77F13B2DDD2008EAE13 /* QuartzCore.framework in Frameworks */,
+				5EF0ADEE13B649BC008EAE13 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0A74D13B2DCCA008EAE13 /* AudioStreamer.m */,
+				5EF0A74E13B2DCCA008EAE13 /* AudioStreamer.h */,
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				5EF0A1BF13AF06A8008EAE13 /* SecondViewController.h */,
+				5EF0A1C013AF06A8008EAE13 /* SecondViewController.m */,
+				1D3623240D0F684500981E51 /* BalkaniaAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BalkaniaAppDelegate.m */,
+				5EF0A5BD13B15788008EAE13 /* NowPlayingViewController.h */,
+				5EF0A5BE13B15788008EAE13 /* NowPlayingViewController.m */,
+				5EF0A70613B2D359008EAE13 /* Song.h */,
+				5EF0A70713B2D359008EAE13 /* Song.m */,
+				5EF0AD5913B54B7F008EAE13 /* SharedData.h */,
+				5EF0AD5A13B54B7F008EAE13 /* SharedData.m */,
+				5E50F48013C1345000A0930F /* DetailViewController.m */,
+				5E50F47F13C1345000A0930F /* DetailViewController.h */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Balkania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Balkania */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Balkania;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Balkania_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0ADEB13B64923008EAE13 /* Balkania.sqlite */,
+				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				5EF0A5C713B15942008EAE13 /* NowPlayingView.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				5E50F46F13C1340D00A0930F /* DetailView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Balkania-Info.plist */,
+				5EF0A7D413B2E134008EAE13 /* playbutton.png */,
+				5EF0A7D513B2E134008EAE13 /* stopbutton.png */,
+				5EF0A7D613B2E134008EAE13 /* loadingbutton.png */,
+				5EF0A7D713B2E134008EAE13 /* pausebutton.png */,
+				5EF0B51C13BAF342008EAE13 /* forwardbutton.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0ADED13B649BC008EAE13 /* libsqlite3.0.dylib */,
+				5EF0A9DB13B4E5FF008EAE13 /* Source */,
+				5EF0A77A13B2DDAE008EAE13 /* AudioToolbox.framework */,
+				5EF0A77C13B2DDD2008EAE13 /* CFNetwork.framework */,
+				5EF0A77E13B2DDD2008EAE13 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				5EF0A77813B2DDA2008EAE13 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EF0A9DB13B4E5FF008EAE13 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0A9DC13B4E5FF008EAE13 /* CDataScanner.h */,
+				5EF0A9DD13B4E5FF008EAE13 /* CDataScanner.m */,
+				5EF0A9DE13B4E5FF008EAE13 /* Experimental */,
+				5EF0A9E713B4E5FF008EAE13 /* Extensions */,
+				5EF0A9EC13B4E5FF008EAE13 /* JSON */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5EF0A9DE13B4E5FF008EAE13 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0A9DF13B4E5FF008EAE13 /* CFilteringJSONSerializer.h */,
+				5EF0A9E013B4E5FF008EAE13 /* CFilteringJSONSerializer.m */,
+				5EF0A9E113B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.h */,
+				5EF0A9E213B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.m */,
+				5EF0A9E313B4E5FF008EAE13 /* CJSONSerialization.h */,
+				5EF0A9E413B4E5FF008EAE13 /* CJSONSerialization.m */,
+				5EF0A9E513B4E5FF008EAE13 /* CJSONSerializedData.h */,
+				5EF0A9E613B4E5FF008EAE13 /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		5EF0A9E713B4E5FF008EAE13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0A9E813B4E5FF008EAE13 /* CDataScanner_Extensions.h */,
+				5EF0A9E913B4E5FF008EAE13 /* CDataScanner_Extensions.m */,
+				5EF0A9EA13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.h */,
+				5EF0A9EB13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5EF0A9EC13B4E5FF008EAE13 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5EF0A9ED13B4E5FF008EAE13 /* CJSONDeserializer.h */,
+				5EF0A9EE13B4E5FF008EAE13 /* CJSONDeserializer.m */,
+				5EF0A9EF13B4E5FF008EAE13 /* CJSONScanner.h */,
+				5EF0A9F013B4E5FF008EAE13 /* CJSONScanner.m */,
+				5EF0A9F113B4E5FF008EAE13 /* CJSONSerializer.h */,
+				5EF0A9F213B4E5FF008EAE13 /* CJSONSerializer.m */,
+				5EF0A9F313B4E5FF008EAE13 /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Balkania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Balkania" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Balkania;
+			productName = Balkania;
+			productReference = 1D6058910D05DD3D006BFB54 /* Balkania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Balkania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Balkania */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Balkania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				5EF0A5C813B15942008EAE13 /* NowPlayingView.xib in Resources */,
+				5EF0A7D813B2E134008EAE13 /* playbutton.png in Resources */,
+				5EF0A7D913B2E134008EAE13 /* stopbutton.png in Resources */,
+				5EF0A7DA13B2E134008EAE13 /* loadingbutton.png in Resources */,
+				5EF0A7DB13B2E134008EAE13 /* pausebutton.png in Resources */,
+				5EF0ADEC13B64923008EAE13 /* Balkania.sqlite in Resources */,
+				5EF0B51D13BAF342008EAE13 /* forwardbutton.png in Resources */,
+				5E50F47013C1340D00A0930F /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BalkaniaAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				5EF0A1C113AF06A8008EAE13 /* SecondViewController.m in Sources */,
+				5EF0A5BF13B15788008EAE13 /* NowPlayingViewController.m in Sources */,
+				5EF0A70813B2D359008EAE13 /* Song.m in Sources */,
+				5EF0A74F13B2DCCA008EAE13 /* AudioStreamer.m in Sources */,
+				5EF0A9F413B4E5FF008EAE13 /* CDataScanner.m in Sources */,
+				5EF0A9F513B4E5FF008EAE13 /* CFilteringJSONSerializer.m in Sources */,
+				5EF0A9F613B4E5FF008EAE13 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				5EF0A9F713B4E5FF008EAE13 /* CJSONSerialization.m in Sources */,
+				5EF0A9F813B4E5FF008EAE13 /* CJSONSerializedData.m in Sources */,
+				5EF0A9F913B4E5FF008EAE13 /* CDataScanner_Extensions.m in Sources */,
+				5EF0A9FA13B4E5FF008EAE13 /* NSDictionary_JSONExtensions.m in Sources */,
+				5EF0A9FB13B4E5FF008EAE13 /* CJSONDeserializer.m in Sources */,
+				5EF0A9FC13B4E5FF008EAE13 /* CJSONScanner.m in Sources */,
+				5EF0A9FD13B4E5FF008EAE13 /* CJSONSerializer.m in Sources */,
+				5EF0AD5B13B54B7F008EAE13 /* SharedData.m in Sources */,
+				5E50F48113C1345000A0930F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Balkania_Prefix.pch;
+				INFOPLIST_FILE = "Balkania-Info.plist";
+				PRODUCT_NAME = Balkania;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Balkania_Prefix.pch;
+				INFOPLIST_FILE = "Balkania-Info.plist";
+				PRODUCT_NAME = Balkania;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Balkania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Balkania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

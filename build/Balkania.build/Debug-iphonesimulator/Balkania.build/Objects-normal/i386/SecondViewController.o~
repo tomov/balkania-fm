@@ -1,0 +1,13 @@
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController searchBarSearchButtonClicked:]':
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: 'SecondViewController' may not respond to '-executeAsynchronousSearchQuery:'
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: (Messages without a matching method signature
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: will be assumed to return 'id' and accept
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:314: warning: '...' as arguments.)
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController connection:didFailWithError:]':
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:354: warning: 'SecondViewController' may not respond to '-stopSearchingEffects'
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController connectionDidFinishLoading:]':
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:403: warning: 'SecondViewController' may not respond to '-stopSearchingEffects'
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController executeAsynchronousSearchQuery:]':
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:431: warning: 'SecondViewController' may not respond to '-startSearchingEffects'
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m: In function '-[SecondViewController tableView:didSelectRowAtIndexPath:]':
+/Users/momchil/Documents/Balkania/Classes/SecondViewController.m:508: warning: 'DetailViewController' may not respond to '-setDetails'
